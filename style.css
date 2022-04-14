@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(250deg,red,purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: #444;
+    height: 400px;
+    width: 300px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.6;
+}
+form{
+    max-width: 100%;
+    width: 200px;
+}
+.input{
+    border: none;
+    color: #444;
+    font-size: 15px;
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.todos{
+    background-color: #fff;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+
+}
+.todos li{
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 15px ;
+    padding: 10px 10px;
+}
+.todos li.completed{
+    color: #b6b6b6;
+    text-decoration: line-through;
+}
+small{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
